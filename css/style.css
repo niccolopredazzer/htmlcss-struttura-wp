@@ -8,3 +8,27 @@
     display: table;
     clear: both;
 }
+.container {
+    height: 90vh;
+    width: 90vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightgrey;
+}
+header {
+    height: 15%;
+    width: 100%;
+    background-color: yellow;
+}
+main {
+    height: 70%;
+    width: 100%;
+    background-color: violet;
+}
+footer {
+    height: 15%;
+    width: 100%;
+    background-color: lightblue;
+}
